@@ -23,7 +23,7 @@ env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
   # 目标镜像仓库：quay.io/<namespace>/weknora-{app,ui,docreader,sandbox}
   REGISTRY: quay.io
-  IMAGE_NAMESPACE: ${{ secrets.QUAY_NAMESPACE }}
+  IMAGE_NAMESPACE: "18896723947"
   # 统一 tag 规则：分支名 / tag / 语义化版本 / sha / 默认分支 latest / 手动触发时的自定义 tag
   IMAGE_TAGS: |
     type=ref,event=branch
